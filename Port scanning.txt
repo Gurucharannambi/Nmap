@@ -1,0 +1,65 @@
+# Nmap 7.95 scan initiated Thu Feb 12 21:40:20 2026 as: nmap -sS -oN syn_scan.txt 192.168.29.0/24
+Nmap scan report for 192.168.29.1
+Host is up (0.0058s latency).
+Not shown: 991 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  open   https
+1900/tcp open   upnp
+2869/tcp closed icslap
+7443/tcp open   oracleas-https
+8002/tcp closed teradataordbms
+8080/tcp open   http-proxy
+8200/tcp closed trivnet1
+8443/tcp open   https-alt
+MAC Address: B4:A7:C6:E9:66:BA (Servercom (India) Private Limited)
+
+Nmap scan report for 192.168.29.62
+Host is up (0.0040s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+5060/tcp filtered sip
+MAC Address: 9A:3B:33:AA:4A:3D (Unknown)
+
+Nmap scan report for 192.168.29.90
+Host is up (0.0073s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+2869/tcp open  icslap
+MAC Address: B4:9D:FD:A4:D1:C0 (Shenzhen Sdmc Technology)
+
+Nmap scan report for 192.168.29.139
+Host is up (0.0040s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT     STATE SERVICE
+7000/tcp open  afs3-fileserver
+8008/tcp open  http
+8009/tcp open  ajp13
+8443/tcp open  https-alt
+9000/tcp open  cslistener
+9080/tcp open  glrpc
+MAC Address: 10:B2:32:07:F7:26 (Qingdao Intelligent&Precise Electronics)
+
+Nmap scan report for 192.168.29.150
+Host is up (0.0075s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE    SERVICE
+5060/tcp filtered sip
+MAC Address: 32:46:73:28:9D:1B (Unknown)
+
+Nmap scan report for 192.168.29.253
+Host is up (0.011s latency).
+All 1000 scanned ports on 192.168.29.253 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 02:2A:DD:5F:06:3E (Unknown)
+
+Nmap scan report for 192.168.29.35
+Host is up (0.00015s latency).
+Not shown: 996 closed tcp ports (reset)
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+6881/tcp open  bittorrent-tracker
+
+# Nmap done at Thu Feb 12 21:45:34 2026 -- 256 IP addresses (7 hosts up) scanned in 313.70 seconds
